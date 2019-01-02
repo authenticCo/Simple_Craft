@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,900");
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.masthead {
+  color: #ffffff;
+  height: 100vh;
+  min-height: 500px;
+  background: #fc5c7d;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, right top, left top, from(#6A82FB), to(#FC5C7D));
+  background: linear-gradient(to left, #6A82FB, #FC5C7D);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.masthead nav .navbar-brand {
+  color: #ffffff;
+}
+
+.masthead nav li > a {
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: .7;
+}
+
+.masthead nav .social-links a {
+  color: #ffffff;
+  padding: 10px;
+}
+
+.masthead h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+
+.masthead .lead {
+  opacity: .8;
+  line-height: 28px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.masthead .lead .btn {
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  padding: 15px 35px;
+  font-size: .75rem;
+  font-weight: 900;
+  opacity: 1 !important;
+  letter-spacing: 2px;
+}
+
+#services, #pricing {
+  padding: 100px;
+  background-color: #fcfcfc;
+}
+
+#services .section-title, #pricing .section-title {
+  margin-bottom: 50px;
+}
+
+#services .section-title h2, #pricing .section-title h2 {
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 1.8rem;
+}
+
+#services .section-title .shortline, #pricing .section-title .shortline {
+  width: 75px;
+  border: 1px solid #000;
+  background-color: #000;
+}
+
+#services .section-title .service-tag, #pricing .section-title .service-tag {
+  font-weight: 400;
+  width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#services .servicesstack .service-wrap, #pricing .servicesstack .service-wrap {
+  padding: 0px;
+}
+
+#services .servicesstack .service-wrap .info, #pricing .servicesstack .service-wrap .info {
+  padding: 20px 25px;
+  background-color: #ffffff;
+}
+
+#services .servicesstack .service-wrap .info .icon, #pricing .servicesstack .service-wrap .info .icon {
+  font-size: 2.5rem;
+  margin: 5px 0;
+}
+
+#services .servicesstack .service-wrap .info .icon i, #pricing .servicesstack .service-wrap .info .icon i {
+  background: #FC5C7D;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(#6A82FB, #FC5C7D);
+  opacity: .75;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#services .servicesstack .service-wrap .info h4, #pricing .servicesstack .service-wrap .info h4 {
+  font-weight: 700;
+  font-size: .95rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 15px auto;
+}
+
+#services .servicesstack .service-wrap .info p, #pricing .servicesstack .service-wrap .info p {
+  line-height: 25px;
+  color: #8A8A8A;
+  font-size: 14px;
+}
+
+#portfolio {
+  margin: 50px auto;
+  padding: 50px;
+}
+
+#portfolio .portfolio-wrap {
+  margin: 50px auto;
+}
+
+#pricing #pro {
+  background: #ffffff;
+}
+
+#pricing .card {
+  background: transparent;
+  border: none;
+  padding: 50px;
+}
+
+#pricing .card.active {
+  background: #ffffff;
+  color: #6a82fb;
+}
+
+#pricing .card .card-header {
+  background: transparent;
+  text-transform: uppercase;
+  border: none;
+}
+
+#pricing .card .card-header h4 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  color: #000 !important;
+}
+
+#pricing .card .card-body h1 {
+  font-weight: 300;
+  font-size: 3.5rem;
+}
+
+#pricing .card .card-body .per {
+  font-size: 1rem;
+  margin: -10px 0 25px 0;
+}
+
+#pricing .card .card-body ul {
+  line-height: 40px;
+  color: #8A8A8A;
+}
+
+#pricing .card .card-body button {
+  border: 2px solid #6a82fb;
+  border-radius: 0px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #6a82fb;
+  font-size: .75rem;
+}
+
+#pricing .card .card-body button:hover {
+  background: #6a82fb;
+  color: #ffffff;
+}
+
+#pricing .card .card-body button.active {
+  background: #6a82fb;
+  color: #ffffff;
+}
+
+#pricing .card .card-body button.active:hover {
+  background: none;
+  color: #6a82fb;
+}
+
+#testimonials {
+  padding: 50px 0 100px 0;
+  background: #fcfcfc;
+}
+
+#testimonials i {
+  font-size: 2.5rem;
+  margin: 25px;
+}
+
+#testimonials .quote {
+  line-height: 34px;
+  width: 875px;
+  margin: 0 auto;
+  font-size: 19px;
+  color: #8a8a8a;
+  margin-bottom: 20px;
+}
+
+#testimonials .author {
+  font-weight: 700;
+}
+
+#contact {
+  background: #fc5c7d;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, right top, left top, from(#6A82FB), to(#FC5C7D));
+  background: linear-gradient(to left, #6A82FB, #FC5C7D);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 150px;
+  color: #ffffff;
+}
+
+#contact .section-title {
+  margin-bottom: 50px;
+}
+
+#contact .section-title h2 {
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 1.8rem;
+}
+
+#contact .section-title .shortline {
+  width: 75px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+#contact .section-title .service-tag {
+  font-weight: 400;
+  width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#contact form {
+  background: transparent;
+  width: 75%;
+}
+
+#contact form input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  border-radius: 0;
+  margin: 25px 0;
+  color: #ffffff;
+}
+
+#contact form ::-webkit-input-placeholder {
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+#contact form :-ms-input-placeholder {
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+#contact form ::-ms-input-placeholder {
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+#contact form ::placeholder {
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+#contact form .encry {
+  text-align: center;
+}
+
+#contact form .encry i {
+  margin-right: 5px;
+}
+
+#contact form button {
+  border: 1px solid #ffffff;
+  padding: 10px 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .70rem;
+  border-radius: 0;
+  letter-spacing: 2px;
+  margin: 20px auto;
+}
+
+#footer {
+  padding: 75px;
+  text-align: center;
+}
+
+#footer i {
+  background: #FC5C7D;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(#6A82FB, #FC5C7D);
+  opacity: .75;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#footer .info {
+  font-weight: 700;
+}
+
+#footer .mini {
+  color: #6a82fb;
+  font-weight: 700;
+}
+
+#miniNav {
+  margin: 0px;
+  padding: 15px;
+  border-top: 1px solid #000;
+  opacity: .75;
+}
+
+#miniNav li {
+  display: inline;
+  margin-right: 15px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+//FONT FAMILY
+$raleway: 'Raleway', sans-serif;
+$regular: 400;
+$bold: 700;
+$black: 900;
+$light: 300;
+
+
+//COLOR SCHEME
+$blueberry: #6a82fb;
+$pink: #fc5c7d;
+$powder: #fcfcfc;
+$dusty: #eecfd4;
+$cadet: #5c9ead;
+$white: #ffffff;
+
+
+body{
+    font-family: $raleway;
+}
+
+.masthead {
+    color: $white;
+    height: 100vh;
+    min-height: 500px;
+    background: $pink;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, $blueberry, $pink);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    nav{
+        .navbar-brand{
+            color: $white;
+        }
+        li > a{
+            color: $white;
+            text-transform: uppercase;
+            opacity: .7;
+        }
+        .social-links{
+            a{
+                color: $white;
+                padding: 10px;
+            }
+        }
+    }
+    h1{
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 8px;
+    }
+
+    .lead{
+        opacity: .8;
+        line-height: 28px;
+        font-weight: $regular;
+        font-size: 1rem;
+        .btn{
+            color: $white;
+            text-transform: uppercase;
+            border: 1px solid $white;
+            border-radius: 2px;
+            padding: 15px 35px;
+            font-size: .75rem;
+            font-weight: $black;
+            opacity: 1 !important;
+            letter-spacing: 2px;
+        }
+    }
+  }
+
+  #services, #pricing{
+      padding: 100px;
+      background-color: $powder;
+
+      
+      .section-title{
+          margin-bottom: 50px;
+
+          h2{
+            font-weight: $bold;
+            letter-spacing: 2px;
+            font-size: 1.8rem;
+          }
+          .shortline{
+              width: 75px;
+              border: 1px solid #000;
+              background-color: #000;
+          }
+          .service-tag{
+              font-weight: $regular;
+              width: 700px;
+              margin: 0 auto;
+              font-size: 18px;
+              line-height: 28px;
+          }
+      }
+      //section-title
+
+      .servicesstack{
+
+
+          .service-wrap{
+            padding: 0px;
+            .info{
+                padding: 20px 25px;
+                background-color: $white;
+
+                .icon{
+                    font-size: 2.5rem;
+                    margin: 5px 0;
+                    
+                    i{
+                        background: #FC5C7D;  /* fallback for old browsers */
+                        background: -webkit-linear-gradient( #6A82FB, #FC5C7D);
+                        opacity: .75; 
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                }
+                h4{
+                    font-weight: $bold;
+                    font-size: .95rem;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    margin: 15px auto;
+                }
+                p{
+                    line-height: 25px;
+                    color: #8A8A8A;
+                    font-size: 14px;
+                }
+            }
+        }
+      }
+      //services-3-column
+
+      //end to services-section
+  }
+  //portfolio
+  #portfolio{
+      margin: 50px auto;
+      padding: 50px;
+
+
+      .portfolio-wrap{
+          margin: 50px auto;
+          }
+    }
+//pricing
+
+#pricing{
+    #pro{
+        background: $white;
+    }
+    .card{
+        background: transparent;
+        border: none;
+        padding: 50px;
+
+        &.active{
+            background: $white;
+            color: $blueberry;
+
+        }
+        .card-header{
+            background: transparent;
+            text-transform: uppercase;
+            border: none;
+            h4{
+                font-weight: $bold;
+                font-size: 1.25rem;
+                letter-spacing: 2px;
+                color: #000 !important;
+            }
+        }
+        .card-body{
+            
+            h1{
+                font-weight: $light;
+                font-size: 3.5rem;
+            }
+            .per{
+                font-size: 1rem;
+                margin: -10px 0 25px 0;
+            }
+            ul{
+                line-height: 40px;
+                color: #8A8A8A;
+            }
+            button{
+                border: 2px solid $blueberry;
+                border-radius: 0px;
+                padding: 10px 40px;
+                text-transform: uppercase;
+                font-weight: $bold;
+                color: $blueberry;
+                font-size: .75rem;
+                &:hover{
+                    background: $blueberry;
+                    color: $white;
+                }
+
+                &.active{
+                    background: $blueberry;
+                    color: $white;
+
+                    &:hover{
+                        background: none;
+                        color: $blueberry;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#testimonials{
+    padding: 50px 0 100px 0;
+    background: $powder;
+
+    i{
+        font-size: 2.5rem;
+        margin: 25px;
+    }
+    .quote{
+        line-height: 34px;
+        width: 875px;
+        margin: 0 auto;
+        font-size: 19px;
+        color: #8a8a8a;
+        margin-bottom: 20px;
+    }
+    .author{
+        font-weight: $bold;
+    }
+}
+
+//Contact
+#contact{
+    background: $pink;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, $blueberry, $pink);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px;
+    color: $white;
+    .section-title{
+        margin-bottom: 50px;
+
+        h2{
+          font-weight: $bold;
+          letter-spacing: 2px;
+          font-size: 1.8rem;
+
+        }
+        .shortline{
+            width: 75px;
+            border: 1px solid $white;
+            background-color: $white;
+        }
+        .service-tag{
+            font-weight: $regular;
+            width: 700px;
+            margin: 0 auto;
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+
+    form{
+        background: transparent;
+        width: 75%;
+        input{
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid $white;
+            border-radius: 0;
+            margin: 25px 0;
+            color: $white;
+        }
+
+        ::placeholder{
+            color: $white;
+            font-weight: $regular;
+            letter-spacing: 2px;
+        }
+
+        .encry{
+            text-align: center;
+
+            i{
+                margin-right: 5px;
+            }
+        }
+
+        button{
+            border: 1px solid $white;
+            padding: 10px 30px;
+            color: $white;
+            text-transform: uppercase;
+            font-weight: $bold;
+            font-size: .70rem;
+            border-radius: 0;
+            letter-spacing: 2px;
+            margin: 20px auto;
+        }
+    }
+}
+
+#footer{
+    padding: 75px;
+    text-align: center;
+
+    i{
+        background: #FC5C7D;  /* fallback for old browsers */
+        background: -webkit-linear-gradient( #6A82FB, #FC5C7D);
+        opacity: .75; 
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .info{
+        font-weight: $bold;
+    }
+    .mini{
+        color: $blueberry;
+        font-weight: $bold;
+    }
+}
+#miniNav{
+    margin: 0px;
+    padding: 15px;
+    border-top: 1px solid #000;
+    opacity: .75;
+
+    li{
+        display: inline;
+        margin-right: 15px;
+    }
+
+
+}
+
